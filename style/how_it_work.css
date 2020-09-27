@@ -1,0 +1,138 @@
+.how_it_work{
+  display: flex;
+  flex-direction: column;
+
+  margin: 100px 281.6px 307px 315px;
+}
+
+.how_it_work .hiw{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.how_it_work .steps{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Section 1 */
+.how_it_work .step_1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  max-width: 228.37px;
+  max-height: 270.21px;
+}
+.how_it_work .rectangle{    /* Universal rectangles propertys, posible to the sections 1,2,3,4*/
+  width: 46px;
+  height: 96px;
+  border: 2px solid black;
+  
+  margin-left: 70px;
+}
+.how_it_work .step_1 h4{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.how_it_work .step_1 span{
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+/* Section 2 */
+.how_it_work .step_2{
+  display: flex;
+  flex-direction: column;
+
+  max-width: 228.37px;
+  max-height: 270.21px;
+}
+.how_it_work .step_2 h4{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.how_it_work .step_2 span{
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+/* Section 3 */
+.how_it_work .step_3{
+  display: flex;
+  flex-direction: column;
+  
+  max-width: 228.37px;
+  max-height: 270.21px;
+}
+.how_it_work .step_3 h4{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.how_it_work .step_3 span{
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+/* Section 4 */
+.how_it_work .step_4{
+  display: flex;
+  flex-direction: column;
+  
+  max-width: 228.37px;
+  max-height: 270.21px;
+}
+.how_it_work .step_4 h4{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.how_it_work .step_4 span{
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+/* button 'get start' */
+.how_it_work .get_start{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 102.8px
+}
+.how_it_work .get_start button{
+  background-color: #FFBB42;
+  color: white;
+  font-size: 14px;
+  padding: 14.2px 28.5px 14.8px 26.5px;
+  border: 0;
+}
+
+
+
+
+
+
+/*
+.how_it_work .steps{
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .how_it_work .step_1, .step_2, .step_3, .step_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .how_it_work .step_1, .step_2, .step_3{
+    margin-left: 50px;
+  }
+  .how_it_work .rectangle{
+    margin-right: 70px;
+  }
+*/

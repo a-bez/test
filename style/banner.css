@@ -1,0 +1,54 @@
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1700px;
+  height: 589px;
+
+  background-color: #709DCA;
+}
+
+.banner .heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 118px auto 32px auto;
+}
+
+.banner .sing_in{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 32px auto 67px auto;
+}
+
+.banner .sing_in input{
+  width: 281px;
+  height: 46px;
+  border: 0;
+  margin-right: 10px;
+}
+
+.banner .sing_in .request_btn{
+  width: 211px;
+  height: 46px;
+
+  border: 0;
+
+  background-color: #FFBB42;
+  color: white;
+}
+
+.banner .slider{
+  display: flex;
+  justify-content: space-between;
+
+  width: 56px;
+}
+.banner .slider .dot{
+  width: 11.46px;
+  height: 11px;
+  border: 1px solid #1CA8DD;
+  border-radius: 50%;
+}
